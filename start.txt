@@ -1,0 +1,2 @@
+C:\Project\mongo\bin>mongod.exe --dbpath "C:\Project\mongo" --storageEngine=mmapv1
+C:\Project\zooo>node server.js
