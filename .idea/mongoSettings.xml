@@ -4,16 +4,20 @@
     <option name="serverConfigurations">
       <list>
         <ServerConfiguration>
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
           <option name="connectOnIdeStartup" value="true" />
           <option name="label" value="mongo" />
+          <option name="password" value="user" />
           <option name="serverUrls">
             <list>
-              <option value="localhost:27017" />
+              <option value="ds023325.mlab.com:23325" />
             </list>
           </option>
+          <option name="userDatabase" value="heroku_7mnxg1wd" />
+          <option name="username" value="user" />
         </ServerConfiguration>
       </list>
     </option>
-    <option name="shellPath" value="C:\Project\mongo\bin\mongod.exe" />
+    <option name="shellPath" value="C:\Project\mongo\bin\mongo.exe" />
   </component>
 </project>
